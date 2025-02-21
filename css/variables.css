@@ -1,4 +1,13 @@
+
+
+
 @font-face {
-    font-family: "example";
-    src: url(../storage/fonts/font.ttf);
+    font-family: "RobotoCondensed-Regular.ttf";
+    src: url(../storage/fonts/RobotoCondensed-Regular.ttf);
 }
+
+@font-face {
+    font-family: "RobotoCondensed-Bold.ttf";
+    src: url(../storage/fonts/RobotoCondensed-Bold.ttf);
+}
+
