@@ -1,7 +1,8 @@
 @import url(variables.css);
 
 *{margin: 0; padding: 0; 
-    outline: 1px solid tomato;
+    
+    /*outline: 1px solid tomato;*/
 }
 *::before, *::after{box-sizing: border-box;}
 body{min-height: 100dvh;}
@@ -20,6 +21,88 @@ transition: none;
 }
 }
 
-h1{
-    color: red;
+
+.bodycontainer{
+    background-color: rgba(20, 20, 20, 1);
+
+}
+
+.headercontainer{
+    width: 100vw;
+    height: auto;
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+
+        >div:nth-child(1){
+            width: 17.70vw;
+            height: 6.6vw ;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            place-items: center;
+            gap: 0.347vw;
+            border-top-right-radius:3.33vw;
+            border-bottom-right-radius:3.33vw;              
+            
+            p{
+                padding-left: 2.43vw;
+                font-family: "RobotoCondensed-Regular.ttf";
+                font-size: 3.33vw;   
+            }
+
+            img{
+                width: 3.194vw;
+                height: 3.125vw;
+            }
+           
+        }
+
+        >div:nth-child(2){
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 3.5vw;
+            color: white;
+            width: 50.83vw;
+            text-decoration: none;
+            border-bottom: 0.14vw solid rgba(44, 44, 44, 1);
+
+            a{
+                font-family: "RobotoCondensed-Bold.ttf";
+                border-bottom: 2px solid transparent;
+                font-size: 1.66vw;
+            }
+
+            a:hover{
+                border-bottom: 0.14vw solid white;
+            }
+        }
+
+        >div:nth-child(3){
+            display: flex;
+            flex-direction: row;
+            width: 7.152vw;
+            height: 2.77vw;
+            gap: 1.944vw;
+            margin-top: 3.35vw;
+            margin-right:2.57vw ;
+            >img:nth-child(1){
+               width: 2.27vw ;
+               height: 2.43vw;
+            }
+
+            >img:nth-child(2){
+                width: 2.77vw ;
+                height: 2.77vw;
+             }
+
+        }
+
+
+    }
 }
