@@ -65,6 +65,7 @@ transition: none;
         }
 
         >div:nth-child(2){
+            margin-right: 10vw;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -73,11 +74,12 @@ transition: none;
             width: 50.83vw;
             text-decoration: none;
             border-bottom: 0.14vw solid rgba(44, 44, 44, 1);
-
+            
             a{
                 font-family: "RobotoCondensed-Bold.ttf";
                 border-bottom: 2px solid transparent;
                 font-size: 1.66vw;
+                
             }
 
             a:hover{
@@ -111,12 +113,112 @@ transition: none;
 
 
 .maincontainer{
+    
+
     >section:nth-child(1){
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        top: 11.875vw;
+
+
+        >article:nth-child(1){
+
+            width: 49.12vw;
+            height: auto;
+            position: absolute;
+            top: 11.875vw;
+            left: 6.94vw;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            align-self: center;
+            justify-content: space-between;
+            
+            img{
+                width: 49.12vw;
+                height: 27.15vw;
+            }
+    
+            h2{
+                padding-top: 1.80vw;
+                width: 49.09vw;
+                font-family: "RobotoCondensed-Regular.ttf";
+                font-size: 3.91vw;
+                padding-left: 0.2vw;
+            }
+    
+            p{
+                width: 49.09vw;
+                font-family: "RobotoCondensed-Regular.ttf";
+                font-size: 1.8vw;
+                padding-left: 0.3vw;
+                padding-top: 0.90vw;
+            }
+        }
+
+        >article:nth-child(2){
+
+            >img:nth-child(1){
+                position: absolute;
+                width: 34.13vw;
+                height: 36vw;
+                left: 58vw;
+                top: 11.875vw;
+            }
+
+            >a:nth-child(2){
+                
+                position: absolute;
+                top:46.1vw;
+                left: 68.95vw;
+                width: 16.45vw;
+                height: 3.75vw;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                color: black;
+                background-color: white;
+                border-radius: 2.18vw;
+                padding: 0.4vw 0.1vw;
+
+                img{
+                    width: 2.5vw;
+                    height: 2.5vw;
+                }
+                p{
+                    font-family: "RobotoCondensed-Bold.ttf";
+                    font-size: 2.77vw;
+                }
+
+            }
+        
+            >img:nth-child(3){
+                position: absolute;
+                left:92.84vw ;
+                top:34.65vw ;
+                width: 5.69vw ;
+                height:15.13vw ;
+
+            }
+        
+        }
+
+
+
     }
+
+    >section:nth-child(2){
+        
+    }
+    
+
+
+
+
+
+
+
+
+
 
 
 }
