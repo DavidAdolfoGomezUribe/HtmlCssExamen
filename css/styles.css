@@ -30,7 +30,9 @@ transition: none;
 .headercontainer{
     width: 100vw;
     height: auto;
-
+    top: 1.52vw;
+    position: absolute;
+    
     nav{
         display: flex;
         flex-direction: row;
@@ -66,7 +68,7 @@ transition: none;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            margin-top: 3.5vw;
+            margin-top: 3.2vw;
             color: white;
             width: 50.83vw;
             text-decoration: none;
@@ -89,7 +91,7 @@ transition: none;
             width: 7.152vw;
             height: 2.77vw;
             gap: 1.944vw;
-            margin-top: 3.35vw;
+            margin-top: 3.1vw;
             margin-right:2.57vw ;
             >img:nth-child(1){
                width: 2.27vw ;
@@ -105,4 +107,16 @@ transition: none;
 
 
     }
+}
+
+
+.maincontainer{
+    >section:nth-child(1){
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 11.875vw;
+    }
+
+
 }
