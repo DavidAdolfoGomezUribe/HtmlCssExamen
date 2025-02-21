@@ -219,6 +219,7 @@ transition: none;
             width: 45.41vw;
             gap: 2.84vw;
             h2{
+                padding-left: 0.2vw;
                 font-family: "RobotoCondensed-Bold.ttf";
                 font-size:4.44vw ;
             }
@@ -306,6 +307,110 @@ transition: none;
 
     }
     
+    >section:nth-child(3){
+
+        >article:nth-child(1){
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 167.15vw;
+            left: 9.86vw;
+            gap: 5.76vw;
+            color: white;
+            width: 52.15vw;
+            h2{
+                font-family: "RobotoCondensed-Bold.ttf";
+                font-size: 5vw;
+            }
+            p{
+                font-family: "RobotoCondensed-Regular.ttf";
+                font-size: 2.5vw;  
+            }
+        }
+
+        >article:nth-child(2){
+            position: absolute;
+            left: 64.86vw;
+            top: 169.4vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3.61vw;
+            >img{
+               width: 26.04vw;
+               height: 21.18vw;
+            }
+
+            >a{
+                background-color: white;
+                color: black;
+                border-radius: 2.26vw;
+                font-family: "RobotoCondensed-Bold.ttf";
+                font-size: 2.5vw;
+                padding: 0.2vw 3.2vw;
+                text-decoration: none;
+                text-align: center;
+
+
+            }
+
+        }
+
+        >article:nth-child(3){
+            position: absolute;
+            left: 9.72vw;
+            top: 210vw;
+            color: white;
+            width: 49vw;
+            display: flex;
+            flex-direction: column;
+            gap:4.79vw ;
+
+            h2{
+                font-size: 5vw;
+                font-family: "RobotoCondensed-Bold.ttf";
+            }
+            p{
+                font-family: "RobotoCondensed-Regular.ttf";
+                font-size: 2.5vw
+            }
+
+        }
+
+
+        >article:nth-child(4){
+            position: absolute;
+            top: 218vw;
+            left: 65.48vw;
+            width: 24.79vw;
+            
+            img{
+                width: 24.79vw;
+                height: 16.52vw ;
+            }
+            div:nth-child(2){
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                p{
+                    color: white;
+                    font-size: 6.66vw ;
+                    font-family: "RobotoCondensed-Regular.ttf";
+                }
+                img{
+                    width: 5.69vw;
+                    height: 5.55vw ;
+                }
+
+            }
+
+        }
+
+        
+
+
+
+    }
 
 
 
