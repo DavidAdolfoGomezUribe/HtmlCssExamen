@@ -414,11 +414,29 @@ transition: none;
 
 
 
+}
 
+.footercontainer{
+    position: absolute;
+    top: 267.15vw;
+    height: 4.44vw ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 55vw;
 
-
-
-
+    p:nth-child(1){
+        font-family: "RobotoCondensed-Regular.ttf";
+        font-size: 1.66vw;
+    }
+    p:nth-child(2){
+        font-size: 1.66vw;
+        font-family: "RobotoCondensed-Regular.ttf";
+        color: rgba(112, 112, 112, 1);
+    }
 
 
 
